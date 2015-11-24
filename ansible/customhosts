@@ -1,0 +1,11 @@
+# custom  hosts
+# inventory configs for my cluster
+[db]
+192.168.61.11
+
+[www]
+www-01.example.com ansible_ssh_user=ubuntu
+www-02 ansible_ssh_user=ubuntu
+
+[lb]
+lb0.example.com
